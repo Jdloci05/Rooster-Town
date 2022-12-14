@@ -47,6 +47,9 @@ TagManager:
   - name: Foreground
     uniqueID: 4059481839
     locked: 0
+  - name: AboveSolids
+    uniqueID: 3703676703
+    locked: 0
   - name: Player
     uniqueID: 3922992129
     locked: 0
