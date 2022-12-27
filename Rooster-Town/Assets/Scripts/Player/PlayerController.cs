@@ -1,25 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
-
-    private bool isMoving;
+    public string Name;
     private Vector2 input;
 
-    private Animator animator;
+    public GameObject shopClothes;
+
+    private Character character;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+
+        character = GetComponent<Character>();
+
+    }
+
+    void Start()
+    {
+
+        DialogManager.Instance.ShowDialogText("This Grass Looks like it can be pulls off");
+        //Your code here
     }
     // Start is called before the first frame update
 
-    private void Update()
+
+    public void HandleUpdate()
     {
-        if (!isMoving)
+        if (!character.IsMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
@@ -29,32 +40,38 @@ public class PlayerController : MonoBehaviour
 
             if (input != Vector2.zero)
             {
-
-                animator.SetFloat("moveX", input.x);
-                animator.SetFloat("moveY", input.y);
-
-                var targetPos = transform.position;
-                targetPos.x += input.x;
-                targetPos.y += input.y;
-
-                StartCoroutine(Move(targetPos));
+                StartCoroutine(character.Move(input));
             }
         }
 
-        animator.SetBool("isMoving", isMoving);
+        character.HandleUpdate();
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            StartCoroutine(Interact());
+            Destroy(GameObject.FindWithTag("IntroTxt"));
+        }
+            
     }
 
-    IEnumerator Move(Vector3 targetPos)
+    IEnumerator Interact()
     {
-        isMoving = true;
+        var facingDir = new Vector3(character.Animator.MoveX, character.Animator.MoveY);
+        var interactPos = transform.position + facingDir;
 
-        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        var collider = Physics2D.OverlapCircle(interactPos, 0.3f, GameLayers.i.InteractableLayer);
+        if (collider != null)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            yield return null;
+           yield return collider.GetComponent<Interactable>()?.Interact(transform);
         }
-        transform.position = targetPos;
 
-        isMoving = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if ((col.tag == "ShopC"))
+        {
+            shopClothes.SetActive(true);
+        }
     }
 }

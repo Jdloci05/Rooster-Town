@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -323,6 +324,8 @@
 -r:"D:/unity/2021.3.2f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"

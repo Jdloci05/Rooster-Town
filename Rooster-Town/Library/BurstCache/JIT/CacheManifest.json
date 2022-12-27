@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-15T07:21:15.0860304Z"
+      "LastWriteTime": "2022-12-27T07:56:26.9267764Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,27 +19,23 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-15T07:21:15.1377656Z"
+      "LastWriteTime": "2022-12-27T07:56:26.7156331Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-12-27T07:56:26.6886092Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-04-27T05:54:08Z"
     },
     {
-      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-15T07:21:15.1081666Z"
-    },
-    {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-15T07:21:15.0785405Z"
+      "LastWriteTime": "2022-12-27T07:56:26.7386305Z"
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-15T07:21:15.1076618Z"
-    },
-    {
-      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-27T05:37:08Z"
+      "LastWriteTime": "2022-12-27T07:56:27.7065914Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -66,9 +62,9 @@
       "AssemblyDependencyIndices": [
         3,
         4,
-        5,
         2,
         1,
+        5,
         6,
         7
       ]
@@ -80,13 +76,12 @@
       "LinkName": "7F9BDFAB3718C423",
       "AssemblyDependencyIndices": [
         8,
-        9,
-        6,
-        10,
+        5,
         2,
         0,
         1,
-        3
+        3,
+        9
       ]
     },
     {
@@ -98,11 +93,11 @@
         8,
         2,
         3,
-        6,
+        5,
         1,
         0,
         7,
-        10
+        9
       ]
     },
     {
@@ -113,12 +108,12 @@
       "AssemblyDependencyIndices": [
         8,
         2,
-        7,
         3,
-        6,
+        5,
         0,
         1,
-        10
+        7,
+        9
       ]
     },
     {

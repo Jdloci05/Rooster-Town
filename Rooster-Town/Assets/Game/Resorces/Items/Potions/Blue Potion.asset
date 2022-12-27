@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8cd96634531c940a5d29a99c53e0fc, type: 3}
+  m_Name: Blue Potion
+  m_EditorClassIdentifier: 
+  name: Blue Potion
+  description: It looks like an unknown blue substance at the moment it would be
+    better to sell it
+  icon: {fileID: 168369816, guid: 64eb714b71e051a40906226fe45fb1b3, type: 3}
+  price: 100
+  isSellable: 1

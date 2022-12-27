@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -403,6 +404,8 @@
 -r:"D:/unity/2021.3.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/Api/Analytics/AnalyticsReporter.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/Api/Analytics/AnalyticsTestCallback.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/Api/Analytics/RunFinishedData.cs"

@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Skin 2
+  - NPC
+  - Skin 3
+  - Skin 4
+  - Skin 5
+  - Skin 6
+  - Intro
+  - IntroTxt
+  - ShopC
   layers:
   - Default
   - TransparentFX
@@ -11,10 +20,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - SolidObjects
+  - Interactable
+  - LongGrass
+  - Player
   - 
   - 
   - 
@@ -44,6 +53,12 @@ TagManager:
   - name: Background
     uniqueID: 1283420871
     locked: 0
+  - name: Others
+    uniqueID: 918589847
+    locked: 0
+  - name: AboveBackground
+    uniqueID: 3277449779
+    locked: 0
   - name: Foreground
     uniqueID: 4059481839
     locked: 0
@@ -52,4 +67,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3922992129
+    locked: 0
+  - name: AbovePlayer
+    uniqueID: 940327097
     locked: 0

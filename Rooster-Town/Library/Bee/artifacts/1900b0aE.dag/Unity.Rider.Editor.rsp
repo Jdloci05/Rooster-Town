@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:TEST_FRAMEWORK
 -define:ROSLYN_ANALYZER_FIX
 -define:CSHARP_7_OR_LATER
@@ -408,6 +409,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.ide.rider@3.0.13/Rider/Editor/Discovery.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.13/Rider/Editor/EditorPluginInterop.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.13/Rider/Editor/LoggingLevel.cs"

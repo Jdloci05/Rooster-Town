@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3dbca45bb3f1447b276cb43a9b9e4b, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  name: Wood
+  description: wood is a common material but very sold as you can see a lot is built
+    with it
+  icon: {fileID: 994589772, guid: 64eb714b71e051a40906226fe45fb1b3, type: 3}
+  price: 60
+  isSellable: 1

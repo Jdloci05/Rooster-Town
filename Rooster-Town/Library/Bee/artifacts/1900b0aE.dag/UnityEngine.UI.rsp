@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_TILEMAP
@@ -122,6 +123,8 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -340,6 +343,8 @@
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs"

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297518c8d015fd94b97111d2d7356dac, type: 3}
+  m_Name: Ruby
+  m_EditorClassIdentifier: 
+  name: Ruby
+  description: Ruby is called the heart stone because of its color, this beauty can
+    be sold at a good price
+  icon: {fileID: 533564250, guid: 64eb714b71e051a40906226fe45fb1b3, type: 3}
+  price: 340
+  isSellable: 1

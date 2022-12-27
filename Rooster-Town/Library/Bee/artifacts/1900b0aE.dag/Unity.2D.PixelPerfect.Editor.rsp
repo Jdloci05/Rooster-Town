@@ -115,8 +115,11 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -420,6 +423,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.pixel-perfect@5.0.1/Editor/CinemachinePixelPerfectEditor.cs"
 "Library/PackageCache/com.unity.2d.pixel-perfect@5.0.1/Editor/ObjectMenuCreation/GameObjectCreation.cs"
 "Library/PackageCache/com.unity.2d.pixel-perfect@5.0.1/Editor/PixelPerfectCameraEditor.cs"
