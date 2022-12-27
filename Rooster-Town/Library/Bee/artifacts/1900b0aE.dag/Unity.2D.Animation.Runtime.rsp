@@ -345,8 +345,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/Runtime/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/Runtime/Bone.cs"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/Runtime/BufferManager.cs"

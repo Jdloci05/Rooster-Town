@@ -310,8 +310,6 @@
 -r:"D:/unity/2021.3.2f1/Rooster-Town/Rooster-Town/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Connections/ControlConnection.cs"
 "Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Connections/InvalidConnection.cs"
 "Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Connections/IUnitConnection.cs"

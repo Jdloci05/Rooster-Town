@@ -308,8 +308,6 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/BezierUtility.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/External/LibTessDotNet/Dict.cs"

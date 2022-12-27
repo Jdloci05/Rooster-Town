@@ -424,8 +424,6 @@
 -r:"Library/Bee/artifacts/StandaloneWindows64_CodeGen/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/StandaloneWindows64_CodeGen/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/StandaloneWindows64_CodeGen/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventSystemEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventTriggerEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/Physics2DRaycasterEditor.cs"

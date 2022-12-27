@@ -306,8 +306,6 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Internal.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Package Manager/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.services.core@1.3.1/Runtime/Threading/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.services.core@1.3.1/Runtime/Threading/UnityThreadUtilsInternal.cs"
 -langversion:9.0
